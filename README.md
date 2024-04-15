@@ -1,4 +1,4 @@
-## Multi-Object Tracking Example
+## Multiple-Object Tracking Example
 
 ### Overview
 This MATLAB script exemplifies multi-object tracking within a video sequence. It aims to identify and monitor numerous moving objects in a video stream, assigning distinct identifiers (IDs) to each object and projecting their positions across frames utilizing the Kalman filter.
