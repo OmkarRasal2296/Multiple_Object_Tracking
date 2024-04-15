@@ -1,15 +1,15 @@
 ## Multi-Object Tracking Example
 
 ### Overview
-This MATLAB code is an example of multi-object tracking in a video sequence. The purpose of this code is to detect and track multiple moving objects in a video feed, assigning unique identifiers (IDs) to each object and predicting their locations across frames using the Kalman filter.
+This MATLAB script exemplifies multi-object tracking within a video sequence. It aims to identify and monitor numerous moving objects in a video stream, assigning distinct identifiers (IDs) to each object and projecting their positions across frames utilizing the Kalman filter.
 
 ### Features
-- Detects moving objects in a video sequence.
+- Detects moving objects in video sequences.
 - Tracks multiple objects across frames.
-- Predicts the locations of objects in subsequent frames.
+- Forecasts object locations in successive frames.
 - Assigns unique IDs to each tracked object.
-- Handles occlusions and temporary object disappearances.
-- Visualizes the tracking results in real-time.
+- Manages occlusions and temporary object disappearances.
+- Provides real-time visualization of tracking results.
 
 ### System Requirements
 - MATLAB (R2018a or later)
@@ -17,34 +17,34 @@ This MATLAB code is an example of multi-object tracking in a video sequence. The
 
 ### Installation
 1. Download and install MATLAB from the MathWorks website (https://www.mathworks.com/products/matlab.html).
-2. Ensure that the Computer Vision Toolbox is installed. If not, install it using MATLAB Add-Ons.
+2. Ensure the installation of the Computer Vision Toolbox. If absent, install it using MATLAB Add-Ons.
 
 ### Usage
-1. Open MATLAB.
+1. Launch MATLAB.
 2. Copy and paste the provided code into the MATLAB editor.
-3. Save the file with a suitable name, e.g., `MultiObjectTrackingExample.m`.
-4. Make sure your video file is in the MATLAB current directory or provide the correct path to the video file in the `VideoReader` object initialization.
-5. Run the script.
-6. The script will display two video players showing the original video and the detected objects with bounding boxes.
+3. Save the file with an appropriate name, e.g., `MultiObjectTrackingExample.m`.
+4. Confirm your video file's presence in the MATLAB current directory or specify the correct path to the video file in the `VideoReader` object initialization.
+5. Execute the script.
+6. Two video players will appear, showcasing the original video and the detected objects with bounding boxes.
 
 ### Notes
-- You may need to adjust parameters such as the number of training frames, minimum blob area, and Kalman filter settings based on your specific video sequence and tracking requirements.
-- This example assumes that the video file is in a suitable format readable by MATLAB's `VideoReader` object.
+- You might need to fine-tune parameters like the number of training frames, minimum blob area, and Kalman filter settings to match your specific video sequence and tracking needs.
+- This example assumes compatibility of the video file with MATLAB's `VideoReader` object.
 
 ### Disclaimer
-This code is provided as-is without any warranties. It may require modifications to suit specific use cases or video sequences. Use at your own risk.
+This code is provided as-is without warranties. Adaptations may be necessary to accommodate particular use cases or video sequences. Employ at your discretion.
 
 ### Author
-This code example was written by SHREY GOYAL and is provided for educational and demonstrative purposes.
+This code example was authored by OMKAR RASAL and SHREY GOYAL for educational and illustrative purposes.
 
 ### Acknowledgments
-This code is based on the example provided by MATLAB's Computer Vision Toolbox documentation.
+This code draws inspiration from an example in MATLAB's Computer Vision Toolbox documentation.
 
 ### Contact
-For any inquiries or issues regarding this code example, please contact shreygoyal73@gmail.com.
+For inquiries or issues related to this code example, please reach out to omrasal2993@gmail.com.
 
 ### Version History
 - Version 1.0
 
 ### Support
-For additional support or custom implementations, please contact shreygoyal73@gmail.com.
+For further assistance or tailored implementations, please contact shreygoyal73@gmail.com.
